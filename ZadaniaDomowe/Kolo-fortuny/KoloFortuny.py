@@ -1,14 +1,3 @@
-'''
-Napisac skrypt, ktory bedzie dzialal jak gra w kolo fortuny.
-Na poczatku gry podaje sie liczbe uczestnikow oraz losowo wybierana jest kategoria i haslo z pliku txt.
-Nastepnie kazdy z uczestniow losuje liczbe od 1 do liczby uczestniow. W ten sposob ustala sie cyfry od -10 do 10.
-Liczba 0 symbolizuje bankruta i kolejny uczestnik losuje.
-Nastepnie podaje literke. Jesli literka znajduje sie w hasle i pkt sa ujemne to nie otrzymuje ich.
-W przypadku pkt dodatnich sa dodawane sumy pkt.
-Uczestnik po wylosowaniu literki ma prawo do odgadniecia hasla.
-Jesli zgadnie jego pkt sa mnozone przez ilosc literek, ktore nie zostaly odkryte.
-Po odgadnieciu hasla pkt wszystkich uczestnikow zapisywane sa do pliku txt
-'''
 
 import random
 
